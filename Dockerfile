@@ -1,3 +1,3 @@
-FROM nginx
+FROM nginx:alpine
 
-COPY . /usr/share/nginx/html/
+COPY ./templatemo_586_scholar/ /usr/share/nginx/html/
